@@ -10,3 +10,5 @@ jobs:
         uses: actions/checkout@v4  # It just does git clone but for the repo that you are currently using
       - name: Print Hello World
         run: echo "Hello, GitHub Actions!"
+      - name: List all files with details
+        run: ls -la
