@@ -12,7 +12,7 @@ jobs:
         run: echo "Hello, GitHub Actions!"
       - name: List all files with details
         run: ls -la
-         - name: Make script executable
+      - name: Make script executable
         run: chmod +x israel_time.sh
       - name: Run Israel time script
         run: ./israel_time.sh
