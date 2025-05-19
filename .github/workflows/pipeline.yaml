@@ -1,4 +1,4 @@
-mname: My First Action
+name: My First Action
 
 on: push  # Runs when code is pushed
 
